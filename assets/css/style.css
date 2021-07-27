@@ -1,18 +1,45 @@
-.carousel-inner{
-    background-color: #FEEAE9;
-}
+.container{margin-bottom: 100px;}
+.carousel-inner{background-color: #FEEAE9;}
+.carousel-item{padding:10px 40px;box-sizing: border-box;}
 
-.carousel-item{
-    padding: 20px 40px;
-}
-.price-text{
-    color: #ff136f;
-}
+.price-text{color: #ff136f;}
+
 .buy-now{
     color:#fff;
-    background: linear-gradient(to bottom,  #ff589b 0%, #ff136f 100% );
+    background: linear-gradient(to bottom,  #ff589b, #ff136f);
     border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
     
- 
+}
+.buy-now:hover{background:linear-gradient(to right, #4075FC, #3517F6);}
+
+.cat-card{padding: 10px 5%;border-radius: 10px;}
+.cat-card img{width:100px;}
+.cat-card h1{color: white;}
+
+a{text-decoration: none;}
+
+.cat1{background:linear-gradient(to right, #EF922F, #F3C819);}
+.cat2{background:linear-gradient(to top, #EB1563, #EB4688);}
+.cat3{background:linear-gradient(to right, #4075FC, #3517F6);}
+
+.cat1:hover{background:linear-gradient(to left, #cfb9c1, #411224);}
+.cat2:hover{background:linear-gradient(to left, #c2ac94, #614234);}
+.cat3:hover{background:linear-gradient(to left, #9b9690, #423a1a);}
+
+.card{
+    border: none;
+    border-radius: 15px;
+    box-shadow:  5px 5px 10px lightgray ;
+}
+.card:hover{
+    background: linear-gradient(45deg,  #e0dcde, #e2e0e4);
+    box-shadow: none;
+}
+
+.contact{
+    background: #FAE6E5;
+    height: 400px;
 
 }
