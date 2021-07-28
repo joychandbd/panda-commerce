@@ -13,8 +13,8 @@
     
 }
 .buy-now:hover{background:linear-gradient(to right, #4075FC, #3517F6);}
-.cat-cards{ }
-.cat-card{ padding: 10px 10%; border-radius: 10px;  }
+.cat-cards{ margin: 1% 0% }
+.cat-card{ padding: 2% 10%; border-radius: 10px;  }
 .cat-card img{width: 100%;}
 .cat-card h1{color: white;}
 
