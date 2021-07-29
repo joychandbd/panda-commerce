@@ -43,3 +43,11 @@ a{text-decoration: none;}
     height: 400px;
 
 }
+.position-center{
+    position: relative;
+  left: 35%;
+  margin: 3% auto;
+  
+   
+}
+.card-img-top{ }
